@@ -406,6 +406,17 @@ pre code {
 	padding-bottom: 150px;
 }
 
+
+@media only screen and (max-width: 767px) {
+  .padding-top-bottom-150{
+	  padding-top: 50px;
+	  padding-bottom: 30px;
+  }
+}
+
+
+
+
 .padding-top-150 {
 	padding-top: 150px;
 }
@@ -418,6 +429,14 @@ pre code {
 	padding-top:    120px;
 	padding-bottom: 120px;
 }
+
+
+@media only screen and (max-width: 767px) {
+	.padding-top-bottom-120{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+  }
 
 .padding-top-120 {
 	padding-top: 120px;
@@ -1389,6 +1408,16 @@ pre code {
 .column-l-margin-200 {
 	margin-left: 200px;
 }
+
+@media only screen and (max-width: 767px) {
+	.column-l-margin-200{
+		margin: auto;
+		text-align: center;
+		margin-bottom: 30px;
+		display: block;
+	}
+	
+	}
 
 .column-l-margin-100 {
 	margin-left: 100px;
@@ -7461,6 +7490,13 @@ h6 {
 	line-height: 1.0;
 }
 
+@media only screen and (max-width: 767px){
+	.headline-big-lg{
+		font-size: 72px;
+	}
+}
+
+
 .headline-xxxxl {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 94px;
@@ -7824,6 +7860,12 @@ h6 {
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 1.0;
+}
+
+@media only screen and (max-width: 767px){
+	.subhead-mm{
+		font-size: 21px;
+	}
 }
 
 .subhead-xs {
@@ -11800,6 +11842,12 @@ textarea.form-input {
 	top: 15px;
 }
 
+.list__item.dots:before {
+	content: '\f111';
+	font-size: 8px;
+	top: 35px;
+}
+
 .list__item.check:before {
 	content: '\f00c';
 }
@@ -12452,6 +12500,16 @@ textarea.form-input {
 }
 
 
+@media only screen and (max-width: 767px) {
+	.client-mobile{
+		text-align: center;
+		padding:20px;
+	}
+
+}
+
+
+
 
 
 
@@ -12891,3 +12949,36 @@ bg-color-red{
     text-decoration: none;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 767px) {
+	.mpopup-content{
+		width: 80%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+.remove-br{
+	display:none;
+	}
+
+	@media only screen and (max-width: 767px) {
+		.body-text-mobile{
+			text-align: center;
+			margin-bottom: 50px;
+			}
+
+			@media only screen and (max-width: 767px) {
+				.list-mobile{
+					padding: 20px;
+					}
+		
+
+					@media only screen and (max-width: 767px) {
+						.image-mobile{
+							padding: 40px;
+							text-align: center;
+							font-size: larger;
+							}
