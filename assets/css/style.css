@@ -1356,6 +1356,11 @@ pre code {
 		             flex-basis: 100%;
 	}
 
+
+	.client-img{
+		flex-basis:50%;
+	}
+
 	.one-offset,
 	.two-offset,
 	.three-offset,
@@ -2193,8 +2198,8 @@ body.js-page-out .pointer {
 .header-logo {
 	width: 318;
 	position: fixed;
-	left: 10px !important;
-	top:  10px !important;
+	left: 15px !important;
+	top:  15px !important;
 	z-index: 10;
 	pointer-events: none;
 }
@@ -12963,22 +12968,30 @@ bg-color-red{
 .remove-br{
 	display:none;
 	}
-
+}
 	@media only screen and (max-width: 767px) {
 		.body-text-mobile{
 			text-align: center;
 			margin-bottom: 50px;
+			padding:20px;
 			}
-
+		}
 			@media only screen and (max-width: 767px) {
 				.list-mobile{
 					padding: 20px;
 					}
-		
+				}
 
 					@media only screen and (max-width: 767px) {
 						.image-mobile{
 							padding: 40px;
 							text-align: center;
 							font-size: larger;
+							}
+						}
+
+						@media only screen and (max-width: 767px) {
+							.hs-mobile{
+								padding-top:0px;
+								}
 							}
