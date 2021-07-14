@@ -13045,6 +13045,7 @@ bg-color-red{
 @media only screen and (max-width: 767px) {
 .remove-br{
 	display:none;
+	text-align: center;
 	}
 }
 	@media only screen and (max-width: 767px) {
