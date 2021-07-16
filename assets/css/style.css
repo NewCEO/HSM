@@ -2324,6 +2324,7 @@ body.js-page-out .pointer {
 	.header-logo.vertical{
 		left: 0px !important;
 		background-color: transparent !important;
+		height: 100px;
 	}
 }
 
@@ -7927,7 +7928,7 @@ h6 {
 
 .subhead-mm {
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 1.0;
 }
@@ -13073,7 +13074,7 @@ bg-color-red{
 @media only screen and (max-width: 767px) {
 .remove-br{
 	display:none;
-	text-align: center;
+	justify-content: center;
 	}
 }
 	@media only screen and (max-width: 767px) {
