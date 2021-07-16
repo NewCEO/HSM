@@ -2687,7 +2687,7 @@ body.js-page-out .pointer {
 
 
 .header-social i {
-	font-size: 25px;
+	font-size: 22px;
 	/* -webkit-transition: .5s cubic-bezier(.17, .85, .438, .99);
 	     -o-transition: .5s cubic-bezier(.17, .85, .438, .99);
 	        transition: .5s cubic-bezier(.17, .85, .438, .99);
@@ -13115,4 +13115,8 @@ bg-color-red{
 									text-align: center;
 									margin: auto;
 									}
+								}
+
+								.medium-widget-article__description,.medium-widget-article__title,.medium-widget-article__author-name,.medium-widget-article__info,.medium-widget-article__date,.medium-widget-article__clap{
+									color: white;
 								}
