@@ -7633,7 +7633,7 @@ h6 {
 
 .headline-xxs {
 	font-family: 'Nunito Sans', sans-serif;
-	font-size:1.875em;
+	font-size:150%;
 	font-weight: 300;
 	line-height: 1.2;
 }
@@ -11208,9 +11208,9 @@ html body .text-bg-red.anim-text-double-fill:before {
 }
 
 .hover-box:hover .hover-move-up1 {
-	-webkit-transform: translateY(-140px);
-	    -ms-transform: translateY(-140px);
-	        transform: translateY(-140px);
+	-webkit-transform: translateY(-120px);
+	    -ms-transform: translateY(-120px);
+	        transform: translateY(-120px);
 }
 
 .hover-box:hover .hover-move-up2 {
