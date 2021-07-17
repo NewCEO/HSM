@@ -959,6 +959,14 @@ pre code {
 
 }
 
+@media only screen and (max-width: 767px) {
+
+	.Price{
+		padding: 50px;
+	}
+
+}
+
 /* portfolio top offset */
 .portfolio-top-offset {
 	margin-top: 120px;
@@ -12757,6 +12765,9 @@ body {
 .bg-price{
 	background-color: #EAEAEA;
 }
+
+
+
 .hr{
 	background-color: red;
 }
