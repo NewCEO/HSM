@@ -7163,6 +7163,11 @@ body .ellipse-btn.ellipse-btn_red {
 	        transition: .7s cubic-bezier(.17, .85, .438, .99);
 }
 
+@media only screen and (max-width: 767px){
+	.ellipse-btn-studio 
+	
+}
+
 
 .ellipse-btn_red:hover
 {
@@ -11196,9 +11201,9 @@ html body .text-bg-red.anim-text-double-fill:before {
 }
 
 .hover-box:hover .hover-move-up {
-	-webkit-transform: translateY(-70px);
-	    -ms-transform: translateY(-70px);
-	        transform: translateY(-70px);
+	-webkit-transform: translateY(-20px);
+	    -ms-transform: translateY(-20px);
+	        transform: translateY(-20px);
 }
 
 
@@ -11215,9 +11220,9 @@ html body .text-bg-red.anim-text-double-fill:before {
 }
 
 .hover-box:hover .hover-move-up1 {
-	-webkit-transform: translateY(-120px);
-	    -ms-transform: translateY(-120px);
-	        transform: translateY(-120px);
+	-webkit-transform: translateY(-100px);
+	    -ms-transform: translateY(-100px);
+	        transform: translateY(-100px);
 }
 
 .hover-box:hover .hover-move-up2 {
