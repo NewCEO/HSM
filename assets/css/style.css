@@ -8141,7 +8141,7 @@ h6 {
 
 .body-text-xx-l {
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 24px;
+	font-size: 21px;
 	font-weight: 200;
 	line-height: 1.5;
 }
@@ -11945,7 +11945,7 @@ textarea.form-input {
 .list__item.dots:before {
 	content: '\f111';
 	font-size: 8px;
-	top: 35px;
+	top: 48px;
 }
 
 .list__item.check:before {
